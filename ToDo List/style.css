@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, rgba(37,41,152,1) 0%, rgba(90,6,105,1) 100%);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.todo {
+    width: 90%;
+    max-width: 470px;
+    background: #fff;
+    color: #252998;
+    margin: 100px auto;
+    border-radius: 5px;
+    padding: 15px 10px 30px;
+    text-align: center;
+}
+
+.header {
+    margin: 10px;
+    padding: 0;
+    display: flex;
+}
+
+.header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.header img {
+    margin: 0 10px;
+    width: 20px;
+}
+
+.addBar {
+    margin: 10px;
+    padding: 0;
+    background: rgb(231, 228, 228);
+    border-radius: 30px;
+}
+
+.addBar input{
+    margin: 0;
+    padding: 20px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background: none;
+}
+
+.addBar input:focus {
+    outline: none;
+}
+
+.addBar button {
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background: rgb(255, 115, 0);
+    color: #fff;
+    cursor: pointer;
+}
+
+.task {
+    margin: 20px;
+    text-align: left;
+}
+
+.task li {
+    margin: 10px 0;
+    color: black;
+    display: flex;
+}
+
+.task li span {
+    width: 300px;
+    display: flex;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.task li span img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.task li button {
+    padding: 10px;
+    font-size: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.task li button:hover {
+    background: rgb(231, 228, 228);
+}
